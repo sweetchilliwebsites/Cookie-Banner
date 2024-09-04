@@ -1,3 +1,5 @@
+// In your scripts.js file hosted on GitHub
+
 document.addEventListener('DOMContentLoaded', function() {
     const bannerHTML = `
         <div id="cookie-banner" class="cookie-banner">
@@ -9,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.body.insertAdjacentHTML('beforeend', bannerHTML);
 
-// JavaScript to handle cookie consent
+    // JavaScript to handle cookie consent
 
 // Function to get a cookie by name
 function getCookie(name) {
@@ -61,3 +63,6 @@ window.onload = function() {
 // Event listeners for buttons
 document.getElementById('accept-cookies').addEventListener('click', acceptCookies);
 document.getElementById('reject-cookies').addEventListener('click', rejectCookies);
+});
+
+
