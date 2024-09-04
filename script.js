@@ -1,3 +1,14 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const bannerHTML = `
+        <div id="cookie-banner" class="cookie-banner">
+            <p>We use cookies to ensure that we give you the best experience on our website. <a href="/privacy-policy">Learn more</a>.</p>
+            <button id="accept-cookies">Accept</button>
+            <button id="reject-cookies">Reject</button>
+        </div>
+    `;
+
+    document.body.insertAdjacentHTML('beforeend', bannerHTML);
+
 // JavaScript to handle cookie consent
 
 // Function to get a cookie by name
